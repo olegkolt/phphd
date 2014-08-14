@@ -39,12 +39,12 @@ class Report
     }
 
     /**
-     * @param string $dirPath Absolute directory path
+     * @param string $dirPath Directory path
      * @return string[]
      */
     public function generateReportForDirectory($dirPath)
     {
-        $dir = new \RecursiveDirectoryIterator($dirPath);
+        $dir = new \RecursiveDirectoryIterator(realpath($dirPath));
         $iterator = new \RecursiveIteratorIterator($dir);
         $phpFiles = new \RegexIterator($iterator, '/^.+\.(php|phtml)$/i', \RecursiveRegexIterator::GET_MATCH);
         
