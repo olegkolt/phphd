@@ -23,10 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Collect.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Collect.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Collect.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="9" selection-start="504" selection-end="504" vertical-scroll-proportion="0.41838843" vertical-offset="0" max-vertical-offset="1260">
+            <state line="32" column="35" selection-start="568" selection-end="596" vertical-scroll-proportion="-10.625" vertical-offset="225" max-vertical-offset="1260">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template.html.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/View/template.html.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="31" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0931677" vertical-offset="0" max-vertical-offset="966">
               <folding />
             </state>
           </provider>
@@ -61,12 +70,12 @@
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/src/Report.php" />
         <option value="$PROJECT_DIR$/test.php" />
-        <option value="$PROJECT_DIR$/src/View/template.html.php" />
         <option value="$PROJECT_DIR$/tests/acceptance/sample3.php" />
         <option value="$PROJECT_DIR$/tests/acceptance/HtmlOutputTest.php" />
         <option value="$PROJECT_DIR$/src/View/Html.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/Collect.php" />
+        <option value="$PROJECT_DIR$/src/View/template.html.php" />
       </list>
     </option>
   </component>
@@ -133,6 +142,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Hunt4Decedent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Hunt4Decedent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -432,11 +459,6 @@
         <state line="44" column="20" selection-start="907" selection-end="943" vertical-scroll-proportion="0.6818182" vertical-offset="0" max-vertical-offset="1005" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/template.html.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="23" selection-start="1134" selection-end="1134" vertical-scroll-proportion="0.63533056" vertical-offset="0" max-vertical-offset="968" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/acceptance/SearchUnusedCodeTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="4" selection-start="156" selection-end="708" vertical-scroll-proportion="0.13842975" vertical-offset="1" max-vertical-offset="1230" />
@@ -464,7 +486,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Collect.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="9" selection-start="504" selection-end="504" vertical-scroll-proportion="0.41838843" vertical-offset="0" max-vertical-offset="1260">
+        <state line="32" column="35" selection-start="568" selection-end="596" vertical-scroll-proportion="-10.625" vertical-offset="225" max-vertical-offset="1260">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/template.html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="31" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0931677" vertical-offset="0" max-vertical-offset="966">
           <folding />
         </state>
       </provider>
