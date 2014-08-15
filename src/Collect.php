@@ -12,11 +12,20 @@ class Collect
     protected $src;
 
     /**
-     * @param \PHPHD\DataSource\SourceInterface $src
+     * @var string|null
      */
-    public function __construct(SourceInterface $src)
+    protected $dir;
+
+    /**
+     * @param \PHPHD\DataSource\SourceInterface $src
+     * @param string|null $dir
+     */
+    public function __construct(SourceInterface $src, $dir = null)
     {
         $this->src = $src;
+        if (!is_null($dir)) {
+            $this->dir = realpath($dir);
+        }
     }
     
     public function startCollection()
@@ -31,6 +40,9 @@ class Collect
         $files = $this->src->getData();
         
         foreach ($data as $fileName => $lines) {
+            if (!$this->isFileInDir($fileName)) {
+                continue;
+            }
             $file = $files->find($fileName);
             foreach ($lines as $lineNo => $isUsed) {
                 $file->addUsedLine($lineNo - 1);
@@ -41,11 +53,24 @@ class Collect
     }
 
     /**
-     * @param \PHPHD\DataSource\SourceInterface $src
+     * @param string $filePath
+     * @return boolean
      */
-    public static function register(SourceInterface $src)
+    protected function isFileInDir($filePath)
     {
-        $collector = new self($src);
+        if (is_null($this->dir)) {
+            return true;
+        }
+        return strpos($filePath, $this->dir) === 0;
+    }
+
+    /**
+     * @param \PHPHD\DataSource\SourceInterface $src
+     * @param string|null $dir
+     */
+    public static function register(SourceInterface $src, $dir = null)
+    {
+        $collector = new self($src, $dir);
         $collector->startCollection();
         
         register_shutdown_function(array($collector, 'save'));
