@@ -33,7 +33,7 @@ class Report
         $files = $this->src->getData();
         $result = array();
         foreach ($files->getFiles() as $file) {
-            $result[$file->getFileName()] = $file->findUnusedLines();
+            $result[$file->getFileName()] = $file->reportUnusedLines();
         }
         return $result;
     }

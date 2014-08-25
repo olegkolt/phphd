@@ -7,14 +7,20 @@ namespace PHPHD\Data;
  */
 class File
 {
+    const NOCODE_LINE = 0;
+    const USED_LINE   = 1;
+    const UNUSED_LINE = 2;
+    
     protected $noCodePatterns = array(
         '/^$/', // Empty strings
+        '/^\s*$/', // Empty strings
         '/^\<\?*/', // <?php or <?
         '|^ *//|', // Comments //
         '/^ *\*/', // Comments *
         '|^ */\*|', // Comments /*
         '/^ *\} *$/', // }
         '/^ *\{ *$/', // {
+        '/^namespace .+$/'
     );
     
     /**
@@ -60,21 +66,30 @@ class File
      * 
      * @return array<integer, string>
      */
-    public function findUnusedLines()
+    public function reportUnusedLines()
     {
         $lines = file($this->fileName, FILE_IGNORE_NEW_LINES);
         $amount = count($lines);
         
+        $result = new \SplFixedArray($amount);
+        
         for ($i = 0; $i < $amount; $i++) {
-            if (
-                $this->isLineUsed($i) ||
-                $this->isNoCodeLine($lines[$i])
-            ) {
-                unset($lines[$i]);
+            
+            $line = $lines[$i];
+            if ($this->isLineUsed($i)) {
+                $status = self::USED_LINE;
+            } elseif ($this->isNoCodeLine($line)) {
+                $status = self::NOCODE_LINE;
+            } else {
+                $status = self::UNUSED_LINE;
             }
+            $result[$i] = array(
+                $line,
+                $status
+            );
         }
 
-        return $lines;
+        return $result;
     }
 
     /**
