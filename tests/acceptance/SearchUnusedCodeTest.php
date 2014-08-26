@@ -4,6 +4,7 @@ namespace PHPHD;
 
 use PHPHD\DataSource\Memory;
 use PHPHD\DataSource\Serialize;
+use PHPHD\Data\File;
 
 class SearchUnusedCodeTest extends \PHPUnit_Framework_TestCase
 {
@@ -21,10 +22,9 @@ class SearchUnusedCodeTest extends \PHPUnit_Framework_TestCase
         
         $report = new Report($dataSrc);
         $unused = $report->generateReport()[$sampleFilePath];
-        
-        $this->assertCount(2, $unused);
-        $this->assertArrayHasKey(13, $unused);
-        $this->assertArrayHasKey(14, $unused);
+       
+        $this->assertEquals(File::UNUSED_LINE, $unused[13][1]);
+        $this->assertEquals(File::UNUSED_LINE, $unused[14][1]);
     }
     
     public function testSerialize()
@@ -50,9 +50,8 @@ class SearchUnusedCodeTest extends \PHPUnit_Framework_TestCase
         );
         $unused = $report->generateReport()[$sampleFilePath];
         
-        $this->assertCount(2, $unused);
-        $this->assertArrayHasKey(13, $unused);
-        $this->assertArrayHasKey(14, $unused);
+        $this->assertEquals(File::UNUSED_LINE, $unused[13][1]);
+        $this->assertEquals(File::UNUSED_LINE, $unused[14][1]);
     }
     
     public function testDirInMemory()

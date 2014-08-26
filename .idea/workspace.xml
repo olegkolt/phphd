@@ -23,19 +23,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Collect.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Collect.php">
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="35" selection-start="568" selection-end="596" vertical-scroll-proportion="-10.625" vertical-offset="225" max-vertical-offset="1260">
+            <state line="66" column="3" selection-start="1747" selection-end="1747" vertical-scroll-proportion="0.9053628" vertical-offset="129" max-vertical-offset="1080">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HtmlOutputTest.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/acceptance/HtmlOutputTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="27" selection-start="184" selection-end="432" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="480">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="template.html.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/View/template.html.php">
+      <file leaf-file-name="SearchUnusedCodeTest.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/acceptance/SearchUnusedCodeTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="31" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0931677" vertical-offset="0" max-vertical-offset="966">
+            <state line="5" column="0" selection-start="54" selection-end="85" vertical-scroll-proportion="-3.0833333" vertical-offset="1" max-vertical-offset="1215">
               <folding />
             </state>
           </provider>
@@ -60,22 +72,22 @@
         <option value="$PROJECT_DIR$/vendor/autoload.php" />
         <option value="$PROJECT_DIR$/src/DataSource/Memory.php" />
         <option value="$PROJECT_DIR$/tests/acceptance/sample.php" />
-        <option value="$PROJECT_DIR$/src/Data/File.php" />
         <option value="$PROJECT_DIR$/src/Data/FileCollection.php" />
         <option value="$PROJECT_DIR$/tests/acceptance/sampleDir/decedent.php" />
         <option value="$PROJECT_DIR$/tests/acceptance/sampleDir/used.php" />
         <option value="$PROJECT_DIR$/tests/acceptance/sample2.php" />
-        <option value="$PROJECT_DIR$/tests/acceptance/SearchUnusedCodeTest.php" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/src/Report.php" />
         <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/tests/acceptance/sample3.php" />
         <option value="$PROJECT_DIR$/tests/acceptance/HtmlOutputTest.php" />
         <option value="$PROJECT_DIR$/src/View/Html.php" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/Collect.php" />
+        <option value="$PROJECT_DIR$/tests/acceptance/SearchUnusedCodeTest.php" />
         <option value="$PROJECT_DIR$/src/View/template.html.php" />
+        <option value="$PROJECT_DIR$/src/Data/File.php" />
+        <option value="$PROJECT_DIR$/src/Report.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -112,7 +124,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -141,7 +152,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="tests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -155,16 +166,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="tests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
+              <option name="myItemId" value="acceptance" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -220,7 +232,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2630458" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2736954" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -228,11 +240,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32940018" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32940018" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -249,9 +261,44 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/View/Html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="33" selection-start="521" selection-end="521" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="690">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Report.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="57" selection-start="748" selection-end="748" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="1005">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data/File.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="29" selection-start="1441" selection-end="1441" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1620" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Collect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="35" selection-start="568" selection-end="596" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="1260">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/Html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="33" selection-start="521" selection-end="521" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="31" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="135" />
@@ -406,16 +453,6 @@
         <state line="35" column="0" selection-start="607" selection-end="607" vertical-scroll-proportion="0.54235536" vertical-offset="0" max-vertical-offset="968" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/acceptance/sample.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="3" selection-start="94" selection-end="94" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="345" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Data/File.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="28" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="1620" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Data/FileCollection.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="21" selection-start="522" selection-end="522" vertical-scroll-proportion="0.46487603" vertical-offset="0" max-vertical-offset="968" />
@@ -431,22 +468,9 @@
         <state line="2" column="17" selection-start="24" selection-end="24" vertical-scroll-proportion="0.030991735" vertical-offset="0" max-vertical-offset="968" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataSource/Serialize.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="42" selection-start="138" selection-end="138" vertical-scroll-proportion="0.09297521" vertical-offset="0" max-vertical-offset="968" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="16" selection-start="15" selection-end="29" vertical-scroll-proportion="0.015856236" vertical-offset="0" max-vertical-offset="946" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor">
-        <state line="2" column="33" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120" />
-      </provider>
-      <provider selected="true" editor-type-id="MarkdownPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/acceptance/sample2.php">
@@ -454,48 +478,85 @@
         <state line="17" column="8" selection-start="156" selection-end="156" vertical-scroll-proportion="0.26342976" vertical-offset="0" max-vertical-offset="968" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Report.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="20" selection-start="907" selection-end="943" vertical-scroll-proportion="0.6818182" vertical-offset="0" max-vertical-offset="1005" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/acceptance/SearchUnusedCodeTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="4" selection-start="156" selection-end="708" vertical-scroll-proportion="0.13842975" vertical-offset="1" max-vertical-offset="1230" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/acceptance/sample3.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="11" selection-start="147" selection-end="147" vertical-scroll-proportion="0.21694215" vertical-offset="0" max-vertical-offset="968" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/Html.php">
+    <entry file="file://$PROJECT_DIR$/tests/acceptance/sample.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="34" selection-start="711" selection-end="711" vertical-scroll-proportion="0.5268595" vertical-offset="0" max-vertical-offset="968" />
+        <state line="11" column="3" selection-start="94" selection-end="94" vertical-scroll-proportion="0.2614897" vertical-offset="0" max-vertical-offset="631" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/acceptance/HtmlOutputTest.php">
+    <entry file="file://$PROJECT_DIR$/src/DataSource/Serialize.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="53" selection-start="495" selection-end="495" vertical-scroll-proportion="0.32541323" vertical-offset="0" max-vertical-offset="968" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="31" selection-start="67" selection-end="67" vertical-scroll-proportion="0.045362905" vertical-offset="0" max-vertical-offset="992" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Collect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="35" selection-start="568" selection-end="596" vertical-scroll-proportion="-10.625" vertical-offset="225" max-vertical-offset="1260">
+        <state line="2" column="10" selection-start="17" selection-end="33" vertical-scroll-proportion="0.030991735" vertical-offset="0" max-vertical-offset="968">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/View/template.html.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="31" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0931677" vertical-offset="0" max-vertical-offset="966">
+        <state line="15" column="30" selection-start="501" selection-end="501" vertical-scroll-proportion="0.14772727" vertical-offset="82" max-vertical-offset="1050">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Data/File.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="35" selection-start="1236" selection-end="1236" vertical-scroll-proportion="0.35657686" vertical-offset="765" max-vertical-offset="1845" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/Html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="20" selection-start="312" selection-end="312" vertical-scroll-proportion="0.2944215" vertical-offset="0" max-vertical-offset="968">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Report.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="57" selection-start="515" selection-end="515" vertical-scroll-proportion="0.37190083" vertical-offset="45" max-vertical-offset="1020">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="6" selection-start="74" selection-end="74" vertical-scroll-proportion="0.06048387" vertical-offset="0" max-vertical-offset="992">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Collect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="36" selection-start="1495" selection-end="1495" vertical-scroll-proportion="0.80475205" vertical-offset="271" max-vertical-offset="1260">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/acceptance/HtmlOutputTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="27" selection-start="184" selection-end="432" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/acceptance/SearchUnusedCodeTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="54" selection-end="85" vertical-scroll-proportion="-3.0833333" vertical-offset="1" max-vertical-offset="1215">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="3" selection-start="1747" selection-end="1747" vertical-scroll-proportion="0.9053628" vertical-offset="129" max-vertical-offset="1080">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
   </component>
