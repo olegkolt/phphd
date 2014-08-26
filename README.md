@@ -1,6 +1,6 @@
 PHPHD - PHP Hunt for Decedent
 =============================
-Found unused code in your project
+**Found unused code in your project**
 
 **PHPHD** is a library that provides collection and rendering functionality for PHP code coverage information. PHPHD uses **xdebug** for collecting information. PHPHD is similar to the [PHP_CodeCoverage](https://github.com/sebastianbergmann/php-code-coverage), but PHPHD much faster and can be used in web sites.
 
@@ -38,7 +38,7 @@ $collector->startCollection();
 $collector->save();
 
 ```
-or just
+Or just add this code to the entry point of your application:
 
 ```php
 <?php
