@@ -29,8 +29,8 @@ To add PHPHD as a local, per-project dependency to your project, simply add a de
 use PHPHD\DataSource\Serialize;
 use PHPHD\Collect
 
-$dataSrc = new Serialize($dumpFilePath);
-$collector = new Collect($dataSrc);
+$dataSrc = new Serialize('/tmp/phphd/data.dump'); // data.dump - file for saving code coverage data
+$collector = new Collect($dataSrc, __DIR__ . '/lib'); // Second argument is code directory path
 $collector->startCollection();
 
 // your job
