@@ -36,6 +36,7 @@ class Report
         foreach ($files->getFiles() as $file) {
             $result[$file->getFileName()] = $file->reportUnusedLines();
         }
+        ksort($result);
         return $result;
     }
 
