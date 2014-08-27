@@ -19,7 +19,7 @@ To add PHPHD as a local, per-project dependency to your project, simply add a de
         }
     }
 
-## Using the PHP_CodeCoverage API
+## Using the PHPHD API
 
 ### Collect coverage data
 
